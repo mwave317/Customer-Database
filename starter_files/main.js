@@ -2,7 +2,7 @@
 
 let people = "";
 let header =`<h1>INTERNAL COMPANY DIRECTORY</h1>`
-for (i=0; i<customers.results.length; i++) {
+for (let i=0; i<customers.results.length; i++) {
 
 let main = `
   <figure>
@@ -16,9 +16,7 @@ let main = `
   <p class="ss">${customers.results[i].id.name} ${customers.results[i].id.value}</p>
   </figurecaption>
   </figure>
-
-
-  `
+  `;
 people += main;
 }
 
