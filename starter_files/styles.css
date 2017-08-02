@@ -1,0 +1,52 @@
+body {
+  display: inline-block;
+  text-align: center;
+  margin: 0%;
+  text-transform: uppercase;
+  /*padding: 0% 1.25%;*/
+
+}
+
+img {
+  margin-top: 10%;
+  height: 300px;
+  width: 300px;
+}
+
+figure {
+  display: inline-block;
+  height: 400px;
+  width:23%;
+  margin: 0%;
+  margin-bottom: 10%;
+  line-height: .75em;
+}
+
+
+
+.name {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5em;
+  border-bottom: 2px solid green;
+  margin-bottom: 0%;
+
+}
+
+.email {
+  color: rgb(220,220,220);
+    margin-bottom: 10%;
+
+}
+
+.info {
+color: rgb(174,174,174);
+text-transform: capitalize;
+}
+
+.ss {
+  margin-top: 10%;
+  color: transparent;
+  text-shadow: 0 0 8px rgba(0,0,0,5);
+
+}
