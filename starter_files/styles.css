@@ -3,7 +3,7 @@ body {
   text-align: center;
   margin: 0%;
   text-transform: uppercase;
-  /*padding: 0% 1.25%;*/
+
 
 }
 
@@ -44,11 +44,15 @@ color: rgb(174,174,174);
 text-transform: capitalize;
 }
 
-.ss {
+#ss {
   margin-top: 10%;
   color: transparent;
   text-shadow: 0 0 8px rgba(0,0,0,5);
 
 }
 
-.ss:
+
+#ss:hover {
+  color: green;
+  text-shadow: 0 0 0px rgba(0,0,0,0);
+}
